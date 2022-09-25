@@ -10,10 +10,7 @@ const HeroBanner = ({ heroBanner }) => {
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
         <Link href={`/products/${heroBanner.product}`}>
-          <button
-            type="button"
-            className="hero-banner-shop-btn"
-          >
+          <button type="button">
             {heroBanner.buttonText}
           </button>
         </Link>
